@@ -1,7 +1,7 @@
 import React, { FC, useMemo, useState } from 'react';
 import { Button } from '@atoms/button';
 
-const IndexPage: FC = () => {
+const Component: FC = () => {
   const [count, setCount] = useState(0);
   const dispBanana = useMemo(() => {
     if (count % 3 === 0 || count.toString().includes('3')) {
@@ -24,4 +24,5 @@ const IndexPage: FC = () => {
   );
 };
 
+const IndexPage = React.memo(Component)
 export default IndexPage;
