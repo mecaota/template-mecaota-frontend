@@ -1,0 +1,21 @@
+name: "Test"
+
+on:
+  pull_request:
+
+jobs:
+  check:
+    name: CheckCode
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Initialize yarn
+      run: yarn
+
+    - name: Lint
+      uses: yarn eslint:check
+
+    - name: Format check
+      uses: yarn prettier:check
