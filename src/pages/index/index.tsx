@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import BananaButton from '@organisms/bananaButton';
+import BananaButton from '@molecules/bananaButton';
 
 const Component: FC = () => {
   return (
@@ -12,5 +12,5 @@ const Component: FC = () => {
   );
 };
 
-const IndexPage = React.memo(Component)
+const IndexPage = React.memo(Component);
 export default IndexPage;

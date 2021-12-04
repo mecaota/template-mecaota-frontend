@@ -1,6 +1,5 @@
 import React, { FC, useMemo, useState } from 'react';
-import { ButtonGroup } from '@chakra-ui/react';
-import Button from '@atoms/button';
+import { Button, ButtonGroup } from '@chakra-ui/react';
 
 const BananaButton: FC = () => {
   const [count, setCount] = useState(0);
@@ -13,11 +12,16 @@ const BananaButton: FC = () => {
 
   return (
     <ButtonGroup>
-      <Button w="120px" h="24px" type="button" onClick={() => setCount((count) => count + 1)}>
+      <Button
+        w="120px"
+        h="24px"
+        type="button"
+        onClick={() => setCount((count) => count + 1)}
+      >
         count is: {dispBanana}
       </Button>
     </ButtonGroup>
   );
-}
+};
 
 export default BananaButton;
