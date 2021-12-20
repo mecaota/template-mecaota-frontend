@@ -1,0 +1,13 @@
+{
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ],
+  "reviewers": ["mecaota"],
+  "reviewersFromCodeOwners": true,
+  "separateMultipleMajor": true,
+  "schedule": ["after 7pm"],
+  "timezone": "Japan"
+}
