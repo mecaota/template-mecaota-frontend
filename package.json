@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "@chakra-ui/react": "^1.7.2",
-    "@emotion/react": "11.8.1",
+    "@emotion/react": "11.8.2",
     "@emotion/styled": "11.8.1",
     "framer-motion": "6.2.8",
     "react": "^17.0.0",
