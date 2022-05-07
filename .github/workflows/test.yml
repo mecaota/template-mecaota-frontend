@@ -24,3 +24,6 @@ jobs:
 
       - name: Test
         uses: yarn test
+
+      - name: Pre Build
+        uses: yarn build
