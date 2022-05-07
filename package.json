@@ -35,7 +35,7 @@
     "jest": "^28.0.0",
     "lint-staged": "^12.1.2",
     "prettier": "2.6.2",
-    "storybook-builder-vite": "^0.1.10",
+    "storybook-builder-vite": "^0.1.23",
     "ts-jest": "^27.0.7",
     "vite": "^2.6.14",
     "vite-tsconfig-paths": "^3.3.17"
