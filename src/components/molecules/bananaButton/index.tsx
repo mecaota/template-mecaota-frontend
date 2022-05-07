@@ -1,5 +1,10 @@
+import { css } from '@linaria/core';
 import React, { FC, useMemo, useState } from 'react';
-import { Button, ButtonGroup } from '@chakra-ui/react';
+
+const bananaButton = css`
+  color: green;
+  min-width: 200px;
+`;
 
 const BananaButton: FC = () => {
   const [count, setCount] = useState(0);
@@ -11,16 +16,15 @@ const BananaButton: FC = () => {
   }, [count]);
 
   return (
-    <ButtonGroup>
-      <Button
-        w="120px"
-        h="24px"
+    <div>
+      <button
+        className={bananaButton}
         type="button"
         onClick={() => setCount((count) => count + 1)}
       >
         count is: {dispBanana}
-      </Button>
-    </ButtonGroup>
+      </button>
+    </div>
   );
 };
 
