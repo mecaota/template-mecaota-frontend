@@ -18,3 +18,9 @@ jobs:
 
       - name: Format check
         uses: yarn prettier:check
+
+      - name: Typescript check
+        uses: yarn tsc
+
+      - name: Test
+        uses: yarn test
