@@ -5,6 +5,10 @@
     "@chakra-ui/react": "^1.8.8",
     "@emotion/react": "11.9.0",
     "@emotion/styled": "11.8.1",
+    "@linaria/babel-preset": "^3.0.0-beta.15",
+    "@linaria/core": "^3.0.0-beta.15",
+    "@linaria/react": "^3.0.0-beta.15",
+    "@linaria/shaker": "^3.0.0-beta.15",
     "framer-motion": "6.3.3",
     "react": "^18.0.0",
     "react-dom": "^18.1.0",
@@ -38,6 +42,7 @@
     "storybook-builder-vite": "^0.1.23",
     "ts-jest": "^28.0.1",
     "vite": "^2.9.8",
+    "vite-plugin-linaria": "^1.0.0",
     "vite-tsconfig-paths": "^3.4.1"
   },
   "lint-staged": {
