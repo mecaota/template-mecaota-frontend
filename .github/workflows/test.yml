@@ -1,4 +1,4 @@
-name: "Test"
+name: 'Test'
 
 on: pull_request
 
@@ -7,14 +7,14 @@ jobs:
     name: CheckCode
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Initialize yarn
-      run: yarn
+      - name: Initialize yarn
+        run: yarn install --frozen-lockfile
 
-    - name: Lint
-      uses: yarn eslint:check
+      - name: Lint
+        uses: yarn eslint:check
 
-    - name: Format check
-      uses: yarn prettier:check
+      - name: Format check
+        uses: yarn prettier:check
