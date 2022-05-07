@@ -59,6 +59,6 @@
     "prettier:fmt": "prettier --write .",
     "serve": "vite preview",
     "storybook": "start-storybook -p 6006",
-    "test": "jest"
+    "test": "jest --passWithNoTests"
   }
 }

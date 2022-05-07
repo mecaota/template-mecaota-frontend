@@ -5,8 +5,8 @@
   },
   "globals": {
     "ts-jest": {
-      "tsconfig": "tsconfig-test.json"
+      "tsconfig": "tsconfig-jest.json"
     }
   },
-  "testMatch": ["**/__tests__/*.spec.+(ts|tsx|js)"]
+  "testMatch": ["**/*.test.+(ts|tsx|js)"]
 }
