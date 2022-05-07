@@ -50,15 +50,15 @@
   },
   "scripts": {
     "build": "tsc && vite build",
-    "build-storybook": "build-storybook",
     "dev": "vite",
     "eslint:check": "eslint . --ext .ts,.tsx",
-    "eslint:fix": "eslint . --ext .ts,.tsx --fix",
+    "eslint:fmt": "eslint . --ext .ts,.tsx --fix",
     "prepare": "husky install",
     "prettier:check": "prettier --ignore-unknown --no-error-on-unmatched-pattern .",
     "prettier:fmt": "prettier --write .",
     "serve": "vite preview",
-    "storybook": "start-storybook -p 6006",
+    "storybook:build": "build-storybook",
+    "storybook:dev": "start-storybook -p 6006",
     "test": "jest --passWithNoTests"
   }
 }
