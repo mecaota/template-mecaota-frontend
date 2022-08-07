@@ -4,7 +4,7 @@
   "dependencies": {
     "@linaria/babel-preset": "^3.0.0-beta.22",
     "@linaria/core": "^3.0.0-beta.22",
-    "@linaria/react": "^3.0.0-beta.15",
+    "@linaria/react": "^3.0.0-beta.22",
     "@linaria/shaker": "^3.0.0-beta.15",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",

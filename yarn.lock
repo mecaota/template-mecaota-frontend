@@ -1639,7 +1639,7 @@
     source-map "^0.7.3"
     stylis "^3.5.4"
 
-"@linaria/core@^3.0.0-beta.15", "@linaria/core@^3.0.0-beta.22":
+"@linaria/core@^3.0.0-beta.22":
   version "3.0.0-beta.22"
   resolved "https://registry.yarnpkg.com/@linaria/core/-/core-3.0.0-beta.22.tgz#170dbeaf7bf7f7b5607d8e68d0d616d739b673b8"
   integrity sha512-BPSecW8QmhQ0y+5cWXEja+MTmLsuo0T1PjqRlSWsmDgjJFFObqCnPEgbR1KNtQb3Msmx1/9q3dYKpA5Zk3g8KQ==
@@ -1662,13 +1662,14 @@
   dependencies:
     "@linaria/babel-preset" "^3.0.0-beta.15"
 
-"@linaria/react@^3.0.0-beta.15":
-  version "3.0.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@linaria/react/-/react-3.0.0-beta.15.tgz#dbd3d17dc6429d7ba46da492992547ce8ed8da39"
-  integrity sha512-1s/4DM+kAg3AdfAiK8vu6NBe3v+il7C3JjD0GBTUkZBJDOQ/4Vm543+PhlyL9t3tmmu9Xxg+in7PFNr7ODCTTQ==
+"@linaria/react@^3.0.0-beta.22":
+  version "3.0.0-beta.22"
+  resolved "https://registry.yarnpkg.com/@linaria/react/-/react-3.0.0-beta.22.tgz#62ee2587ff5e46f8db3307b42285cb15b2ca006e"
+  integrity sha512-14rnb/zkzhFhJM3hbBOzLLS0bu01mOg23Rv2nGQUt5CWd+HOhksmqzqBtC/ijeVlY2hRI0rJJcng9r07LGGAPA==
   dependencies:
     "@emotion/is-prop-valid" "^0.8.8"
-    "@linaria/core" "^3.0.0-beta.15"
+    "@linaria/core" "^3.0.0-beta.22"
+    ts-invariant "^0.10.3"
 
 "@linaria/shaker@^3.0.0-beta.1", "@linaria/shaker@^3.0.0-beta.15":
   version "3.0.0-beta.15"
@@ -11095,6 +11096,13 @@ ts-dedent@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/ts-dedent/-/ts-dedent-2.2.0.tgz#39e4bd297cd036292ae2394eb3412be63f563bb5"
   integrity sha512-q5W7tVM71e2xjHZTlgfTDoPF/SmqKG5hddq9SzR49CH2hayqRKJtQ4mtRlSxKaJlR/+9rEM+mnBHf7I2/BQcpQ==
+
+ts-invariant@^0.10.3:
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/ts-invariant/-/ts-invariant-0.10.3.tgz#3e048ff96e91459ffca01304dbc7f61c1f642f6c"
+  integrity sha512-uivwYcQaxAucv1CzRp2n/QdYPo4ILf9VXgH19zEIjFx2EJufV16P0JtJVpYHy89DItG6Kwj2oIUjrcK5au+4tQ==
+  dependencies:
+    tslib "^2.1.0"
 
 ts-invariant@^0.9.0:
   version "0.9.4"
