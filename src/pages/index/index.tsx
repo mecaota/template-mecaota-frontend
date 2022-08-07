@@ -1,7 +1,8 @@
-import React, { FC } from 'react';
-import BananaButton from '@molecules/bananaButton';
+import { BananaButton } from '@molecules/bananaButton';
+import { memo } from 'react';
+import type { FC } from 'react';
 
-const Component: FC = () => {
+export const IndexPage: FC = memo(() => {
   return (
     <div className="App">
       <header className="App-header">
@@ -10,7 +11,7 @@ const Component: FC = () => {
       </header>
     </div>
   );
-};
+});
+IndexPage.displayName = 'IndexPage';
 
-const IndexPage = React.memo(Component);
 export default IndexPage;

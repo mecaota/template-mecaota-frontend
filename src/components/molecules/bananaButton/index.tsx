@@ -1,12 +1,13 @@
-import { css } from '@linaria/core';
-import React, { FC, useMemo, useState } from 'react';
+import { css } from '@emotion/react';
+import { useMemo, useState } from 'react';
+import type { FC } from 'react';
 
 const bananaButton = css`
   color: green;
   min-width: 200px;
 `;
 
-const BananaButton: FC = () => {
+export const BananaButton: FC = () => {
   const [count, setCount] = useState(0);
   const dispBanana = useMemo(() => {
     if (count % 3 === 0 || count.toString().includes('3')) {
@@ -18,7 +19,7 @@ const BananaButton: FC = () => {
   return (
     <div>
       <button
-        className={bananaButton}
+        css={bananaButton}
         type="button"
         onClick={() => setCount((count) => count + 1)}
       >
@@ -27,5 +28,3 @@ const BananaButton: FC = () => {
     </div>
   );
 };
-
-export default BananaButton;
