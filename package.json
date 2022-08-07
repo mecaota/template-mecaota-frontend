@@ -55,8 +55,8 @@
   "scripts": {
     "build": "tsc && vite build",
     "dev": "vite",
-    "eslint:check": "eslint . --ext .ts,.tsx",
-    "eslint:fmt": "eslint . --ext .ts,.tsx --fix",
+    "lint:check": "eslint . --ext .ts,.tsx",
+    "lint:fmt": "eslint . --ext .ts,.tsx --fix",
     "prepare": "husky install",
     "prettier:check": "prettier --ignore-unknown --no-error-on-unmatched-pattern --ignore-path .gitignore .",
     "prettier:fmt": "prettier --ignore-unknown --no-error-on-unmatched-pattern --ignore-path .gitignore --write .",

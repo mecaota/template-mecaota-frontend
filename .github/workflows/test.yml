@@ -10,20 +10,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
       - name: Initialize yarn
         run: yarn install --frozen-lockfile
 
       - name: Lint
-        uses: yarn eslint:check
+        run: yarn lint:check
 
       - name: Format check
-        uses: yarn prettier:check
+        run: yarn prettier:check
 
       - name: Typescript check
-        uses: yarn tsc
+        run: yarn tsc
 
       - name: Test
-        uses: yarn test
+        run: yarn test
 
       - name: Pre Build
-        uses: yarn build
+        run: yarn build
