@@ -1,5 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+
 import { Router } from './routes';
 
 const idElement = document.getElementById('root');
