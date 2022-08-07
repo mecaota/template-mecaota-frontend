@@ -1,4 +1,4 @@
-import { css } from '@linaria/core';
+import { css } from '@emotion/react';
 import { useMemo, useState } from 'react';
 import type { FC } from 'react';
 
@@ -19,7 +19,7 @@ export const BananaButton: FC = () => {
   return (
     <div>
       <button
-        className={bananaButton}
+        css={bananaButton}
         type="button"
         onClick={() => setCount((count) => count + 1)}
       >
