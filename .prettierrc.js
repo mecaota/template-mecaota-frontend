@@ -3,4 +3,9 @@ module.exports = {
   tabWidth: 2,
   semi: true,
   singleQuote: true,
+  importOrder: ['^[./]', '^@/(.*)$'],
+  importOrderSeparation: true,
+  importOrderSortSpecifiers: true,
+  importOrderGroupNamespaceSpecifiers: true,
+  importOrderCaseInsensitive: true,
 };
