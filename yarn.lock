@@ -1793,14 +1793,14 @@
   dependencies:
     "@linaria/babel-preset" "^3.0.0-beta.22"
 
-"@linaria/react@^4.1.2":
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/@linaria/react/-/react-4.1.2.tgz#4019d1dde6f285d7e0011d9110932497f971fb39"
-  integrity sha512-81mraWM1zFhhiw0Q14ddzx/j/4MUC2eJhs3nqrICOzapi50mBGyMyWs3t7Wo4qTmLMGhGHWKMrHeQmEjNQBhNw==
+"@linaria/react@^4.1.3":
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/@linaria/react/-/react-4.1.3.tgz#c9296b1d259d50c1e024b03894d244a509168e2b"
+  integrity sha512-6P+gYFUy/sN+Bv85n4mOzmY0wN/Wltx6X7uXiVZnJaTw3sGyofJIm+CGMgiOYCmtv1DnAw/29a6mXWLHDqc40w==
   dependencies:
     "@emotion/is-prop-valid" "^0.8.8"
-    "@linaria/core" "^4.1.1"
-    "@linaria/tags" "^4.1.1"
+    "@linaria/core" "^4.1.2"
+    "@linaria/tags" "^4.1.2"
     ts-invariant "^0.10.3"
 
 "@linaria/shaker@^3.0.0-beta.1":
