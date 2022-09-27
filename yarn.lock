@@ -1819,7 +1819,7 @@
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
     ts-invariant "^0.10.3"
 
-"@linaria/shaker@^4.1.2", "@linaria/shaker@^4.2.0":
+"@linaria/shaker@^4.2.0":
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/@linaria/shaker/-/shaker-4.2.0.tgz#447574c781f1751c10a2932ad7aa0694985ea75e"
   integrity sha512-1vRieI2SnGpKxQQ1rxlOoTY6girYWWw1R1AJSP6B6RyCb8GNvyhxyObWagLnQR/4e7fMCkbYlmV7Ipbhi5D8bA==
