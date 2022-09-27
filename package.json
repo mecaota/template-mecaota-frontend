@@ -12,7 +12,7 @@
     "@babel/core": "^7.18.10",
     "@emotion/react": "^11.10.0",
     "@linaria/babel-preset": "^4.1.2",
-    "@linaria/core": "^4.1.1",
+    "@linaria/core": "^4.1.2",
     "@linaria/react": "^4.1.2",
     "@linaria/shaker": "^4.1.2",
     "@storybook/addon-actions": "^6.5.10",
