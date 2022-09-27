@@ -1761,7 +1761,7 @@
     "@linaria/logger" "^3.0.0-beta.20"
     "@linaria/utils" "^3.0.0-beta.20"
 
-"@linaria/core@^4.1.1", "@linaria/core@^4.1.2":
+"@linaria/core@^4.1.2":
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/@linaria/core/-/core-4.1.2.tgz#b3a8f018ea05de05a9a0388be7da890e397c8f03"
   integrity sha512-AWxCYait/FMqDSNOGkvDI779OrsI5yDT1j2JUtMhH0mvhSKn/YWq6EnmFCB65eNI/KAi49oLMJivFEWynde4Dg==
@@ -1819,7 +1819,7 @@
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
     ts-invariant "^0.10.3"
 
-"@linaria/shaker@^4.1.2", "@linaria/shaker@^4.2.0":
+"@linaria/shaker@^4.2.0":
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/@linaria/shaker/-/shaker-4.2.0.tgz#447574c781f1751c10a2932ad7aa0694985ea75e"
   integrity sha512-1vRieI2SnGpKxQQ1rxlOoTY6girYWWw1R1AJSP6B6RyCb8GNvyhxyObWagLnQR/4e7fMCkbYlmV7Ipbhi5D8bA==
@@ -1835,7 +1835,7 @@
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
     ts-invariant "^0.10.3"
 
-"@linaria/tags@^4.1.1", "@linaria/tags@^4.1.2":
+"@linaria/tags@^4.1.2":
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/@linaria/tags/-/tags-4.1.2.tgz#4ef47b74a7489d8550bccd57d8047c147efe28a2"
   integrity sha512-AVtR3/Q25jjjF9Z98zfIFY8dtb8YC+HBDGkUNz4Ad5vsKZdJQi3NvSCv9yp4l6yplrsRwE6bIUEfvSeLDDHDvQ==
