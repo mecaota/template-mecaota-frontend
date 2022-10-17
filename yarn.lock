@@ -1819,10 +1819,10 @@
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
     ts-invariant "^0.10.3"
 
-"@linaria/shaker@^4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@linaria/shaker/-/shaker-4.2.0.tgz#447574c781f1751c10a2932ad7aa0694985ea75e"
-  integrity sha512-1vRieI2SnGpKxQQ1rxlOoTY6girYWWw1R1AJSP6B6RyCb8GNvyhxyObWagLnQR/4e7fMCkbYlmV7Ipbhi5D8bA==
+"@linaria/shaker@^4.2.0", "@linaria/shaker@^4.2.2":
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/@linaria/shaker/-/shaker-4.2.2.tgz#ef7e2be9338607827d7553c3d4dd9d045277f344"
+  integrity sha512-1FxsogLNg17gGWiyQ88f0++M+VCHT1U1w8+4PwKMmEd3ak40lmErW/FZKVEsvKVJKlqAg5vIHiuQflfEfFUuzg==
   dependencies:
     "@babel/core" "^7.18.9"
     "@babel/generator" "^7.18.9"
@@ -1831,7 +1831,7 @@
     "@babel/plugin-transform-template-literals" ">=7"
     "@babel/preset-env" ">=7"
     "@linaria/logger" "^4.0.0"
-    "@linaria/utils" "^4.2.0"
+    "@linaria/utils" "^4.2.2"
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
     ts-invariant "^0.10.3"
 
@@ -1849,10 +1849,10 @@
   resolved "https://registry.yarnpkg.com/@linaria/utils/-/utils-3.0.0-beta.20.tgz#0965df816120a1973c4559b746571c01c6cb9bef"
   integrity sha512-SKRC9dBApzu0kTksVtGZ7eJz1vMu7xew/JEAjQj6XTQDblzWpTPyKQHBOGXNkqXjIB8PwAqWfvKzKapzaOwQaQ==
 
-"@linaria/utils@^4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@linaria/utils/-/utils-4.2.0.tgz#f80c57d2b85f6710bd2cc1341afeda77d8e57732"
-  integrity sha512-ZNQ+ZsRJ1TJQja/PFeiXATrbQVQOl2tsvlEvyQmiKMGY2QnFwoHO+bEUa7WysYaiCRHiZ0zZIus6O5E+T4xTnQ==
+"@linaria/utils@^4.2.0", "@linaria/utils@^4.2.2":
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/@linaria/utils/-/utils-4.2.2.tgz#f566b9941f35c8fa2bead6214302cf2b8f0a0891"
+  integrity sha512-tonN3CZjixedUorhv6LC5NKM30iG6kzNPSs5MvZuOrKxXRoMDTD+atUzA8UhJUQ+HIshFu7a+UNedKnG+kG6hg==
   dependencies:
     "@babel/core" "^7.18.9"
     "@babel/plugin-proposal-export-namespace-from" ">=7"
