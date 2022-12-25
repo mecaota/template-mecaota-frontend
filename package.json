@@ -9,7 +9,7 @@
     "typescript": "^4.8.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.3",
+    "@babel/core": "^7.20.7",
     "@emotion/react": "^11.10.4",
     "@linaria/babel-preset": "^4.2.0",
     "@linaria/core": "^4.1.4",
