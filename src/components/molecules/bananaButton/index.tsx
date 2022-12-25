@@ -1,11 +1,19 @@
-import { css } from '@emotion/react';
-import { useMemo, useState } from 'react';
+import { css } from '@linaria/atomic';
+import { cx } from '@linaria/core';
 import type { FC } from 'react';
+import { useMemo, useState } from 'react';
 
-const bananaButton = css`
+const greenColor = css`
   color: green;
-  min-width: 200px;
 `;
+
+const minWidth = {
+  200: css`
+    min-width: 200px;
+  `,
+} as const;
+
+const bananaButton = cx(greenColor, minWidth[200]);
 
 export const BananaButton: FC = () => {
   const [count, setCount] = useState(0);
@@ -19,7 +27,7 @@ export const BananaButton: FC = () => {
   return (
     <div>
       <button
-        css={bananaButton}
+        className={bananaButton}
         type="button"
         onClick={() => setCount((count) => count + 1)}
       >
