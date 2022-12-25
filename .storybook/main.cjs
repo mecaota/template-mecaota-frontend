@@ -1,3 +1,4 @@
+const { default: linaria } = require('@linaria/vite');
 const { mergeConfig } = require('vite');
 
 module.exports = {
@@ -6,8 +7,10 @@ module.exports = {
   core: {
     builder: '@storybook/builder-vite',
   },
-  async viteFinal(config, { configType }) {
+  async viteFinal(config) {
     // return the customized config
-    return mergeConfig(config);
+    return mergeConfig(config, {
+      plugins: [linaria()],
+    });
   },
 };
