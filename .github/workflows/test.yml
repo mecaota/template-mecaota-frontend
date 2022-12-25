@@ -21,6 +21,9 @@ jobs:
       - name: Lint
         run: yarn lint:check
 
+      - name: Stylelint
+        run: yarn lint:style
+
       - name: Format check
         run: yarn prettier:check
 
