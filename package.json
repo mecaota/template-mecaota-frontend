@@ -63,6 +63,6 @@
     "serve": "vite preview",
     "storybook:build": "build-storybook",
     "storybook:dev": "start-storybook -p 6006",
-    "test": "jest --passWithNoTests"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --passWithNoTests"
   }
 }
