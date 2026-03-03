@@ -1,22 +1,30 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>hatena/renovate-config",
-    "group:recommended",
-    "group:definitelyTyped",
-    "group:test",
-    ":timezone(Asia/Tokyo)"
+    "config:best-practices",
+    ":pinDependencies",
+    ":timezone(Asia/Tokyo)",
+    "security:openssf-scorecard",
+    "npm:unpublishSafe",
+    "preview:buildkite",
+    "preview:dockerCompose",
+    "preview:dockerVersions",
+    "customManagers:biomeVersions",
+    "customManagers:dockerfileVersions",
+    "customManagers:githubActionsVersions",
+    "customManagers:makefileVersions"
   ],
   "labels": ["dependencies"],
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "osvVulnerabilityAlerts": true,
   "reviewers": ["mecaota"],
   "reviewersFromCodeOwners": true,
-  "separateMultipleMajor": true,
   "schedule": ["after 6am"],
-  "packageRules": [
-    {
-      "extends": ["group:storybookMonorepo"],
-      "groupName": "storybook",
-      "matchPackageNames": ["/^@storybook//", "/^storybook-/"]
-    }
-  ]
+  "separateMultipleMajor": true,
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "labels": ["security"]
+  }
 }
