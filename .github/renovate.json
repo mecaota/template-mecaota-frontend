@@ -14,25 +14,17 @@
     "customManagers:githubActionsVersions",
     "customManagers:makefileVersions"
   ],
-  "labels": [
-    "dependencies"
-  ],
+  "labels": ["dependencies"],
   "lockFileMaintenance": {
     "enabled": true
   },
   "osvVulnerabilityAlerts": true,
-  "reviewers": [
-    "mecaota"
-  ],
+  "reviewers": ["mecaota"],
   "reviewersFromCodeOwners": true,
-  "schedule": [
-    "after 6am"
-  ],
+  "schedule": ["after 6am"],
   "separateMultipleMajor": true,
   "vulnerabilityAlerts": {
     "enabled": true,
-    "labels": [
-      "security"
-    ]
+    "labels": ["security"]
   }
 }
