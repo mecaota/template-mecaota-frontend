@@ -39,6 +39,7 @@
     "storybook:dev": "start-storybook -p 6006",
     "test": "vitest run --config vitest.config.ts",
     "test-coverage": "vitest run --coverage --config vitest.config.ts",
+    "test-e2e": "vitest run --config vitest.e2e.config.ts"
   },
   "type": "module",
   "version": "3.0.0"
