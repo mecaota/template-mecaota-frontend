@@ -5,7 +5,7 @@
     ":pinDependencies",
     ":timezone(Asia/Tokyo)",
     "security:openssf-scorecard",
-    "npm:unpublishSafe",
+    "security:minimumReleaseAgeNpm",
     "preview:buildkite",
     "preview:dockerCompose",
     "preview:dockerVersions",
@@ -14,17 +14,25 @@
     "customManagers:githubActionsVersions",
     "customManagers:makefileVersions"
   ],
-  "labels": ["dependencies"],
+  "labels": [
+    "dependencies"
+  ],
   "lockFileMaintenance": {
     "enabled": true
   },
   "osvVulnerabilityAlerts": true,
-  "reviewers": ["mecaota"],
+  "reviewers": [
+    "mecaota"
+  ],
   "reviewersFromCodeOwners": true,
-  "schedule": ["after 6am"],
+  "schedule": [
+    "after 6am"
+  ],
   "separateMultipleMajor": true,
   "vulnerabilityAlerts": {
     "enabled": true,
-    "labels": ["security"]
+    "labels": [
+      "security"
+    ]
   }
 }
