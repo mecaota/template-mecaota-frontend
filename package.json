@@ -28,6 +28,10 @@
     "vite-tsconfig-paths": "6.1.1",
     "vitest": "4.0.18"
   },
+  "engines": {
+    "node": "24.14.0",
+    "npm": "please_use_bun_instead"
+  },
   "name": "template-mecaota-frontend",
   "scripts": {
     "build": "tsc && vite build",
