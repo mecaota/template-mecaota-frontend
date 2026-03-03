@@ -13,7 +13,7 @@
   "files": {
     "ignoreUnknown": true,
     // gitignoreでファイルを無視させても読み込みされてしまうので明示的にignore https://github.com/biomejs/biome/issues/6797
-    "includes": ["**", "!**/node_modules", "!**/storybook-static"]
+    "includes": ["**", "!**/node_modules", "!**/storybook-static", "!**/*.lock"]
   },
   "formatter": {
     "formatWithErrors": true,
