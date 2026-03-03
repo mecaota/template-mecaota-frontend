@@ -14,9 +14,9 @@
   "schedule": ["after 6am"],
   "packageRules": [
     {
-      "extends": "group:storybookMonorepo",
+      "extends": ["group:storybookMonorepo"],
       "groupName": "storybook",
-      "packagePatterns": ["^@storybook/", "^storybook-"]
+      "matchPackageNames": ["/^@storybook//", "/^storybook-/"]
     }
   ]
 }
