@@ -1,9 +1,6 @@
-export const parameters = {
-  actions: { argTypesRegex: '^on[A-Z].*' },
-  controls: {
-    matchers: {
-      color: /(background|color)$/i,
-      date: /Date$/,
-    },
-  },
-};
+import { definePreview } from '@storybook/react-vite';
+
+const previewConfig = definePreview({
+  addons: [],
+});
+export default previewConfig;

@@ -5,9 +5,8 @@ import { Router } from './routes';
 
 const idElement = document.getElementById('root');
 const root = idElement && createRoot(idElement);
-root &&
-  root.render(
-    <StrictMode>
-      <Router />
-    </StrictMode>,
-  );
+root?.render(
+  <StrictMode>
+    <Router />
+  </StrictMode>,
+);
