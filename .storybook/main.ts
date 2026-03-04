@@ -1,7 +1,7 @@
 import { defineMain } from '@storybook/react-vite/node';
 
 const mainConfig = defineMain({
-  addons: [],
+  addons: ['@storybook/addon-a11y', '@storybook/addon-docs'],
   framework: {
     name: '@storybook/react-vite',
     options: {},

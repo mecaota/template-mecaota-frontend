@@ -7,10 +7,12 @@
     "react-router-dom": "7.13.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.4",
+    "@biomejs/biome": "2.4.5",
     "@linaria/atomic": "7.0.1",
-    "@storybook/builder-vite": "10.2.13",
-    "@storybook/react": "10.2.13",
+    "@storybook/addon-a11y": "10.2.14",
+    "@storybook/addon-docs": "10.2.14",
+    "@storybook/builder-vite": "10.2.14",
+    "@storybook/react": "10.2.14",
     "@storybook/react-vite": "10.2.14",
     "@types/node": "25.3.3",
     "@types/react": "19.2.14",
@@ -22,7 +24,7 @@
     "date-fns": "4.1.0",
     "lefthook": "2.1.2",
     "playwright": "1.58.2",
-    "storybook": "10.2.13",
+    "storybook": "10.2.14",
     "typescript": "5.9.3",
     "vite": "7.3.1",
     "vite-tsconfig-paths": "6.1.1",
@@ -35,15 +37,16 @@
   "name": "template-mecaota-frontend",
   "scripts": {
     "build": "tsc && vite build",
+    "build-storybook": "storybook build",
     "dev": "vite",
     "format": "biome check --write --unsafe",
     "lint": "biome check",
     "serve": "vite preview",
-    "storybook:build": "build-storybook",
-    "storybook:dev": "start-storybook -p 6006",
-    "test": "vitest run --config vitest.config.ts",
-    "test-coverage": "vitest run --coverage --config vitest.config.ts",
-    "test-e2e": "vitest run --config vitest.e2e.config.ts"
+    "storybook": "storybook dev -p 6006",
+    "test": "vitest run --passWithNoTests --sequence.concurrent --config vitest.config.ts",
+    "test-coverage": "vitest run --passWithNoTests --coverage --sequence.concurrent --config vitest.config.ts",
+    "test-e2e": "vitest run --passWithNoTests --sequence.concurrent --config vitest.e2e.config.ts",
+    "tsc": "tsc --noEmit"
   },
   "type": "module",
   "version": "3.0.0"

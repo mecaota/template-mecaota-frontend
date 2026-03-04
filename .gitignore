@@ -22,3 +22,9 @@ lerna-debug.log*
 # Vite build output
 dist
 dist-ssr
+
+# Tests
+coverage
+
+*storybook.log
+storybook-static

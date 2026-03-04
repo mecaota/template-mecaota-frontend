@@ -1,30 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:best-practices",
-    ":pinDependencies",
-    ":timezone(Asia/Tokyo)",
-    "security:openssf-scorecard",
-    "security:minimumReleaseAgeNpm",
-    "preview:buildkite",
-    "preview:dockerCompose",
-    "preview:dockerVersions",
-    "customManagers:biomeVersions",
-    "customManagers:dockerfileVersions",
-    "customManagers:githubActionsVersions",
-    "customManagers:makefileVersions"
-  ],
-  "labels": ["dependencies"],
-  "lockFileMaintenance": {
-    "enabled": true
-  },
-  "osvVulnerabilityAlerts": true,
-  "reviewers": ["mecaota"],
-  "reviewersFromCodeOwners": true,
-  "schedule": ["after 6am"],
-  "separateMultipleMajor": true,
-  "vulnerabilityAlerts": {
-    "enabled": true,
-    "labels": ["security"]
-  }
+  "extends": ["github>mecaota/renovate-config"]
 }
