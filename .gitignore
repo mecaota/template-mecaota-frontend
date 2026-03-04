@@ -22,3 +22,6 @@ lerna-debug.log*
 # Vite build output
 dist
 dist-ssr
+
+# Tests
+coverage
