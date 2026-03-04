@@ -18,7 +18,7 @@ jobs:
         uses: oven-sh/setup-bun@3d267786b128fe76c2f16a390aa2448b815359f3 # 2.1.2
 
       - name: Dependencies Install
-        run: bun install
+        run: bun install --frozen-lockfile
 
       - name: Lint & Format
         run: bun run format
