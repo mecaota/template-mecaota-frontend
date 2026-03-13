@@ -6,7 +6,10 @@ import { Router } from './routes';
 export const renderApp = () => {
   const idElement = document.getElementById('root');
   const root = idElement && createRoot(idElement);
-  root?.render(
+  if (!root) {
+    throw new Error('React render target is not found');
+  }
+  root.render(
     <StrictMode>
       <Router />
     </StrictMode>,
