@@ -62,7 +62,7 @@
             "checkTypes": true
           }
         },
-        "noUnresolvedImports": "off", // temp
+        "noUnresolvedImports": "on", // temp
         "noUnusedImports": {
           "fix": "safe",
           "level": "error",
