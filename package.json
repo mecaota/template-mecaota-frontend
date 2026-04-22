@@ -22,7 +22,7 @@
     "@vitest/coverage-v8": "4.1.4",
     "@wyw-in-js/vite": "1.0.9",
     "date-fns": "4.1.0",
-    "lefthook": "2.1.4",
+    "lefthook": "2.1.6",
     "playwright": "1.58.2",
     "storybook": "10.2.17",
     "typescript": "5.9.3",
