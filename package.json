@@ -7,7 +7,7 @@
     "react-router-dom": "7.14.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.6",
+    "@biomejs/biome": "2.4.12",
     "@linaria/atomic": "7.0.1",
     "@storybook/addon-a11y": "10.2.17",
     "@storybook/addon-docs": "10.2.17",
