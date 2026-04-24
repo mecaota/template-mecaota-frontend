@@ -20,7 +20,7 @@
     "@vitejs/plugin-react": "6.0.1",
     "@vitest/browser-playwright": "4.1.4",
     "@vitest/coverage-v8": "4.1.4",
-    "@wyw-in-js/vite": "1.0.9",
+    "@wyw-in-js/vite": "1.1.0",
     "date-fns": "4.1.0",
     "lefthook": "2.1.6",
     "playwright": "1.59.1",
