@@ -4,7 +4,7 @@
     "@linaria/react": "7.0.1",
     "react": "19.2.7",
     "react-dom": "19.2.7",
-    "react-router-dom": "7.14.1"
+    "react-router-dom": "7.17.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.12",
