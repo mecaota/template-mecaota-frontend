@@ -21,7 +21,7 @@
     "@vitest/browser-playwright": "4.1.4",
     "@vitest/coverage-v8": "4.1.4",
     "@wyw-in-js/vite": "1.0.9",
-    "date-fns": "4.1.0",
+    "date-fns": "4.4.0",
     "lefthook": "2.1.6",
     "playwright": "1.59.1",
     "storybook": "10.3.5",
