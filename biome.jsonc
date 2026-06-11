@@ -55,7 +55,7 @@
         "noReactPropAssignments": "on",
         "noRenderReturnValue": "on",
         "noRestrictedElements": "off", // 今のところ使わない
-        "noUndeclaredDependencies": "off", // temp
+        "noUndeclaredDependencies": "on", // temp
         "noUndeclaredVariables": {
           "level": "error",
           "options": {
