@@ -5,7 +5,7 @@
     "": {
       "name": "template-mecaota-frontend",
       "dependencies": {
-        "@linaria/core": "7.0.0",
+        "@linaria/core": "8.2.0",
         "@linaria/react": "7.0.1",
         "react": "19.2.7",
         "react-dom": "19.2.7",
@@ -176,7 +176,7 @@
 
     "@linaria/atomic": ["@linaria/atomic@7.0.1", "", { "dependencies": { "@linaria/core": "^7.0.0", "@linaria/react": "^7.0.1", "@wyw-in-js/processor-utils": "^1.0.4", "@wyw-in-js/shared": "^1.0.4", "known-css-properties": "^0.24.0", "postcss": "^8.4.31", "stylis": "^4.3.0", "ts-invariant": "^0.10.3" }, "peerDependencies": { "react": ">=16" }, "optionalPeers": ["react"] }, "sha512-JoEKTBlHQxL7Q51TASMRfxggjRFMwCn4H6RKFgW4J/qc4OoKbcNbbSO0Zm7ZpIiSnMrwHs+qASK25NhRdIotSw=="],
 
-    "@linaria/core": ["@linaria/core@7.0.0", "", { "dependencies": { "@wyw-in-js/processor-utils": "^1.0.4" } }, "sha512-KRa5XaTNPLFoJawtQnt58tzdt9QrQsUL/u6yEsfYg3d0tcsTecpoHFhT4bPzwuZg9Hie7khTSFhEy+aY84Fo7A=="],
+    "@linaria/core": ["@linaria/core@8.2.0", "", { "dependencies": { "@wyw-in-js/processor-utils": "2.4.0" } }, "sha512-WRY22fd56RjPp5qjV/umgTdu6k2+8PtKuLV9Z311NWZRnQ4lxi0ywKmY9X2ujKtUXk4i/H4Va0wuLhGBgyyxZw=="],
 
     "@linaria/react": ["@linaria/react@7.0.1", "", { "dependencies": { "@emotion/is-prop-valid": "^1.2.0", "@linaria/core": "^7.0.0", "@wyw-in-js/processor-utils": "^1.0.4", "@wyw-in-js/shared": "^1.0.4", "minimatch": "^9.0.3", "react-html-attributes": "^1.4.6", "resolve": "^1.22.8", "ts-invariant": "^0.10.3" }, "peerDependencies": { "react": ">=16" } }, "sha512-bPU6vqOxDHhFwf54a4Dbwjc/SPUz1b3BtMRLlp2bWJGeZ85TYf7Gb8Fb+HfTTb6w4EA6QOL0UzkQGlg0EHkqFw=="],
 
@@ -776,6 +776,12 @@
 
     "@babel/helper-compilation-targets/semver": ["semver@6.3.1", "", { "bin": { "semver": "bin/semver.js" } }, "sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA=="],
 
+    "@linaria/atomic/@linaria/core": ["@linaria/core@7.0.0", "", { "dependencies": { "@wyw-in-js/processor-utils": "^1.0.4" } }, "sha512-KRa5XaTNPLFoJawtQnt58tzdt9QrQsUL/u6yEsfYg3d0tcsTecpoHFhT4bPzwuZg9Hie7khTSFhEy+aY84Fo7A=="],
+
+    "@linaria/core/@wyw-in-js/processor-utils": ["@wyw-in-js/processor-utils@2.4.0", "", { "dependencies": { "@wyw-in-js/shared": "2.4.0" } }, "sha512-Zc7XCCPE+g+Qo0HfQt7pYuyTGTk2PaZwpemzPmCxvRTWXOkLKoEp3lom0qrg89M+9MGRYQFalOgU/2H+wEipIw=="],
+
+    "@linaria/react/@linaria/core": ["@linaria/core@7.0.0", "", { "dependencies": { "@wyw-in-js/processor-utils": "^1.0.4" } }, "sha512-KRa5XaTNPLFoJawtQnt58tzdt9QrQsUL/u6yEsfYg3d0tcsTecpoHFhT4bPzwuZg9Hie7khTSFhEy+aY84Fo7A=="],
+
     "@linaria/react/@wyw-in-js/shared": ["@wyw-in-js/shared@1.0.5", "", { "dependencies": { "debug": "^4.3.4", "find-up": "^5.0.0", "minimatch": "^9.0.3" } }, "sha512-uGLzks3DF/ugFJyetIcWhwBgwEvVv1RfoCzqVIK4pkXVj6b+Fe82WqxNpW4bzMLfATKNln+eFRu/aMdMBnrmaQ=="],
 
     "@oxc-resolver/binding-wasm32-wasi/@emnapi/core": ["@emnapi/core@1.10.0", "", { "dependencies": { "@emnapi/wasi-threads": "1.2.1", "tslib": "^2.4.0" } }, "sha512-yq6OkJ4p82CAfPl0u9mQebQHKPJkY7WrIuk205cTYnYe+k2Z8YBh11FrbRG/H6ihirqcacOgl2BIO8oyMQLeXw=="],
@@ -825,6 +831,8 @@
     "vitest/tinyglobby": ["tinyglobby@0.2.16", "", { "dependencies": { "fdir": "^6.5.0", "picomatch": "^4.0.4" } }, "sha512-pn99VhoACYR8nFHhxqix+uvsbXineAasWm5ojXoN8xEwK5Kd3/TrhNn1wByuD52UxWRLy8pu+kRMniEi6Eq9Zg=="],
 
     "vitest/vite": ["vite@8.0.8", "", { "dependencies": { "lightningcss": "^1.32.0", "picomatch": "^4.0.4", "postcss": "^8.5.8", "rolldown": "1.0.0-rc.15", "tinyglobby": "^0.2.15" }, "optionalDependencies": { "fsevents": "~2.3.3" }, "peerDependencies": { "@types/node": "^20.19.0 || >=22.12.0", "@vitejs/devtools": "^0.1.0", "esbuild": "^0.27.0 || ^0.28.0", "jiti": ">=1.21.0", "less": "^4.0.0", "sass": "^1.70.0", "sass-embedded": "^1.70.0", "stylus": ">=0.54.8", "sugarss": "^5.0.0", "terser": "^5.16.0", "tsx": "^4.8.1", "yaml": "^2.4.2" }, "optionalPeers": ["@types/node", "@vitejs/devtools", "esbuild", "jiti", "less", "sass", "sass-embedded", "stylus", "sugarss", "terser", "tsx", "yaml"], "bin": { "vite": "bin/vite.js" } }, "sha512-dbU7/iLVa8KZALJyLOBOQ88nOXtNG8vxKuOT4I2mD+Ya70KPceF4IAmDsmU0h1Qsn5bPrvsY9HJstCRh3hG6Uw=="],
+
+    "@linaria/core/@wyw-in-js/processor-utils/@wyw-in-js/shared": ["@wyw-in-js/shared@2.4.0", "", { "dependencies": { "debug": "^4.3.4", "find-up": "^5.0.0", "minimatch": "^9.0.3" } }, "sha512-yWYAg2LkuCRxp3wSpubFnPMiLEt0HUNq0Sdt5LKUKs0vdegCAK6dmAkBCh3A//8PP75N6XZ7eJ5FXxKae/bByw=="],
 
     "@types/ws/@types/node/undici-types": ["undici-types@7.19.2", "", {}, "sha512-qYVnV5OEm2AW8cJMCpdV20CDyaN3g0AjDlOGf1OW4iaDEx8MwdtChUp4zu4H0VP3nDRF/8RKWH+IPp9uW0YGZg=="],
 
