@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.16",
-    "@linaria/atomic": "7.0.1",
+    "@linaria/atomic": "8.2.0",
     "@storybook/addon-a11y": "10.4.2",
     "@storybook/addon-docs": "10.4.2",
     "@storybook/builder-vite": "10.4.2",
