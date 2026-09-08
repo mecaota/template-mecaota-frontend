@@ -23,7 +23,7 @@
     "@wyw-in-js/vite": "1.1.0",
     "date-fns": "4.4.0",
     "lefthook": "2.1.9",
-    "playwright": "1.60.0",
+    "playwright": "1.63.0",
     "storybook": "10.4.2",
     "typescript": "6.0.3",
     "vite": "8.0.16",
